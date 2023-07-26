@@ -1,3 +1,27 @@
+html, body, .main-container {
+    height: 100%;
+}
+
 body {
     font-family: 'Space Mono', monospace;
+    
+}
+
+.main-container {
+    background: #F2F2F2;
+    color: #222731;
+}
+@media (prefers-color-scheme: dark) {
+    .main-container {
+        background: #1E2A47;
+
+    color: #FFFFFF;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .main-container {
+    background: #F2F2F2;
+    color: #222731;
+    }
 }
